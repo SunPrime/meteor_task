@@ -1,0 +1,33 @@
+.container{
+    padding: 10px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newFile{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 3%;
+    background-image: linear-gradient(darkgray, lightgrey, grey);
+    box-shadow: darkgray;
+}
+
+.file{
+    width: 100%;
+    background: white;
+    box-shadow: darkgrey;
+}
+
+input{
+    box-shadow: darkgrey;
+}
+
+.btn{
+    box-shadow: darkgrey;
+    border-radius: 10%;
+    margin: 20px 0 0 0;
+    opacity: 50%;
+}

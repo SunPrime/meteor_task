@@ -1,0 +1,21 @@
+<head>
+  <title>ifs_test</title>
+</head>
+
+<body>
+    <div class="container">
+        {{> fileLoader}}
+    </div>
+</body>
+
+<template name="fileLoader">
+    <form class="newFile" enctype="multipart/form-data" method="post">
+        <header>
+            <h3>Here you can upload your files</h3>
+        </header>
+        <input type="file" size="70px" class="file" name="file_name" accept="application/pdf,image/png,image/jpg">
+        <input type="submit" class="btn" value="Send">
+        <p>Size limit <strong>~ 5 Mb</strong></p>
+        <p>You can load file with extension <strong> jpg, png, pdf</strong></p>
+    </form>
+</template>
